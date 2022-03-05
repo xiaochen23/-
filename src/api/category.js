@@ -6,5 +6,5 @@ import request from '@/utils/request'
  * @returns Promise
  */
 export const findAllCategory = () => {
-  return request('home/category/head', 'get')
+  return request('/home/category/head', 'get')
 }

@@ -87,6 +87,7 @@ export default {
   top: 56px;
   height: 0;
   overflow: hidden;
+  z-index: 999;
   opacity: 0;
   box-shadow: 0 0 5px #ccc;
   transition: all 0.2s 0.1s;
